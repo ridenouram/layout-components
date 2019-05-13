@@ -1,0 +1,13 @@
+/* localized version */
+.dogs {
+  background-color: rgb(241, 188, 103);
+/* we can nest css now! */
+  li {
+    color: white;
+
+    &:hover {
+      background-color: rgb(177, 114, 13);
+    }
+  }
+}
+
