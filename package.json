@@ -32,7 +32,7 @@
     "webpack-dev-server": "^3.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose",
     "build": "webpack -p --devtool source-map",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map"
   },
